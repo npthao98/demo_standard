@@ -1,0 +1,49 @@
+/* 1.Base */
+a, a:hover, a:focus{
+    text-decoration: none;
+    color: black;
+}
+
+/* 2.header */
+header a{
+    margin-right: 30px;
+}
+header .link-new-product{
+    color: gold;
+}
+header a:hover{
+    color: gold;
+}
+
+/* 3.Form */
+/* 3.1.form title*/
+.new-product .new-product-title{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    color: goldenrod;
+}
+/* 3.2. style form*/
+.new-product .new-product-form input, .new-product .new-product-form select{
+    display: block;
+    margin: auto;
+    width: 300px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: none;
+    margin-bottom: 20px;
+    border: 1px solid;
+}
+.new-product .new-product-form select{
+    height: 30px;
+}
+.new-product .new-product-form input[type=file]{
+    border: none;
+}
+.new-product .new-product-form button{
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: gold;
+}

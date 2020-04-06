@@ -1,0 +1,16 @@
+{
+    "name": "thaonp/demo-standard2",
+    "authors": [
+        {
+            "name": "thaonp",
+            "email": "nguyenphuongthao12041998@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "AHT\\": "Core/",
+            "NPT\\": "src/"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+/* 1.Base */
+a, a:hover, a:focus{
+    text-decoration: none;
+    color: black;
+}
+
+/* 2.header */
+header a{
+    margin-right: 30px;
+}
+header .link-home{
+    color: gold;
+}
+header a:hover{
+    color: gold;
+}

@@ -1,0 +1,43 @@
+/* 1.Base */
+a, a:hover, a:focus{
+    text-decoration: none;
+    color: black;
+}
+
+/* 2.header */
+header a{
+    margin-right: 30px;
+}
+header a:hover{
+    color: gold;
+}
+
+/* 3.product */
+.product{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+/* 3.1.product title*/
+.product .product-title{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    color: goldenrod;
+}
+/* 3.2.product container*/
+.product .product-image{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.product .bt-delete, .product .bt-update{
+    padding: 7px 12px;
+    background: gold;
+}
+.product .bt-delete{
+    margin-right: 20px;
+}
